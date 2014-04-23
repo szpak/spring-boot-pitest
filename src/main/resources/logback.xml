@@ -5,8 +5,8 @@
 		<resetJUL>true</resetJUL>
 	</contextListener>
 
-	<!--property name="CONSOLE_LOG_PATTERN" value="%cyan(%d{HH:mm:ss.SSS}) | %magenta(%-25thread{25}) | %green(%-50logger{45}) | %-4L | %highlight(%-5level) - %boldWhite(%m) %ex %n" /-->
-	<property name="CONSOLE_LOG_PATTERN" value="%cyan(%d{HH:mm:ss.SSS}) | %green(%-50logger{45}) | %-4L | %highlight(%-5level) - %boldWhite(%m) %ex %n" />
+	<!--<property name="CONSOLE_LOG_PATTERN" value="%cyan(%d{HH:mm:ss.SSS}) | %magenta(%-25thread{25}) | %green(%-50logger{45}) | %-4L | %highlight(%-5level) - %boldWhite(%m) %ex %n" />-->
+	<property name="CONSOLE_LOG_PATTERN" value="%cyan(%d{HH:mm:ss.SSS}) | %green(%-50logger{45}) | %-4L | %highlight(%-5level) - %m %ex %n" />
 
 	<appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
 		<encoder>
