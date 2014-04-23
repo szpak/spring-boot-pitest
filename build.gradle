@@ -15,11 +15,12 @@ buildscript {
      * URL: http://localhost:8080/dashboard/index.html -> OK
      * URL: http://localhost:8080/dashboard/api/greeting -> OK
      */
+/*
     classpath("info.solidsoft.gradle.pitest:gradle-pitest-plugin:0.32.0") {
       exclude group: "org.pitest"
     }
     classpath "org.pitest:pitest-command-line:0.33"
-
+*/
     /*
      * Commenting out lines 17-20 and using 0.33.0-SNAPSHOT of the plugin breaks the build
      *
@@ -38,7 +39,7 @@ buildscript {
      * I do not think this is an issue with the spring-boot-gradle-plugin (not sure though), as
      * with gradle-pitest-plugin-0.32.0 everything is working fine.
      */
-    //classpath("info.solidsoft.gradle.pitest:gradle-pitest-plugin:0.33.0-SNAPSHOT")
+    classpath("info.solidsoft.gradle.pitest:gradle-pitest-plugin:0.33.0-SNAPSHOT")
   }
 }
 
