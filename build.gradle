@@ -136,8 +136,8 @@ dependencies {
 }
 
 jar {
-  baseName = 'gs-spring-boot'
-  version = '0.1.0'
+  baseName = 'spring-boot-pitest'
+  version = '1.0.0'
 }
 
 test {
