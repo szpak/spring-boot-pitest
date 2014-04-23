@@ -163,3 +163,8 @@ jar {
     )
   }
 }
+
+wrapper {
+    gradleVersion '1.11'
+}
+
