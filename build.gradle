@@ -1,7 +1,8 @@
 buildscript {
   repositories {
-    maven() {
-      url "https://ci.it.ewerk.com/nexus/content/groups/public"
+    mavenCentral()
+    maven {
+      url "http://oss.sonatype.org/content/repositories/snapshots/"
     }
   }
   dependencies {
